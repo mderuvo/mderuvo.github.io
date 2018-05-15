@@ -6,7 +6,7 @@ $city=$_POST['city'];
 $phone=$_POST['phone'];
 $email=$_POST['email'];
 
-$to = "youremail@gmail.com";
+$to = "micol.deruvo@gmail.com";
 $subject = "Future Tutorials Contact Form Test";
 $message = " Name: " . $name . "\r\n City: " . $city . "\r\n Phone: " . $phone . "\r\n Email: " . $email;
 
