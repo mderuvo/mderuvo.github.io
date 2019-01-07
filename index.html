@@ -39,6 +39,25 @@
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
 
+
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#eb6c44",
+      "text": "#ffffff"
+    },
+    "button": {
+      "background": "#f5d948"
+    }
+  },
+  "type": "opt-out"
+})});
+</script>
+
   </head>
 
   <body id="page-top">
@@ -454,13 +473,13 @@
       </div>
 	</section>
    -->
-
+<!--
    <div class="privacy-banner" style="border: 2px solid #ff910e; display: none;">
   <div class="banner-wrapper">
     <p>We use cookies to provide and improve our services. By using our site, you consent to cookies. <a href="/terms/privacy-policy.stml">Learn more</a></p>
     <button aria-label="Close" style="background: #ff910e;" type="button"><span aria-hidden="true">x</span></button>
   </div>
-</div>
+   </div> -->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
