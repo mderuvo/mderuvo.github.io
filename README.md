@@ -1,1 +1,1 @@
-# Philyra Landing Page
+# CogniScent Landing Page
